@@ -1,0 +1,55 @@
+@font-face{
+    font-family: title;
+    src: url(VTKS\ CLASSIC.ttf);
+}
+
+@font-face{
+    font-family: classic;
+    src: url(Classica-Book.ttf);
+}
+
+body{
+    font-family: classic;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#1D1D1B, #D24B19);
+}
+
+header{
+    font-family: title;
+    text-align: center;
+    background-color: #5D231B;
+    color: #f7f6db;
+    padding: 18px;
+}
+
+section{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f6db;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 1200px;
+}
+
+.place img{
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+#aboutme h2{ 
+    margin: 0;
+    padding: 0;
+}
+
+.profile img{
+    border-radius: 10px;
+}
+
+.profile p{
+    max-width: 580px;
+}
